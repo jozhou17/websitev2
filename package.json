@@ -2,7 +2,7 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://jozhou17.github.io/website",
+  "homepage":"https://jozhou17.github.io/website/",
   "dependencies": {
     "@material-ui/core": "^4.11.2",
     "@material-ui/styles": "^4.11.2",
