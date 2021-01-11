@@ -1,0 +1,73 @@
+.contactContainer{
+    font-family:Source Code Pro;    
+    margin-bottom:10%;
+}
+.contactTitleContainer{
+    display:flex;
+    justify-content:center;
+}
+.contactTitle{
+    font-size:2.5rem;
+    color:#3587A4;
+}
+
+.name{
+    height:2.5rem;
+    border:1px solid #2D848A;
+    border-bottom:.5px solid #2D848A;
+}
+.email{
+    height:2.5rem;
+    border:1px solid #2D848A;
+    border-bottom:.5px solid #2D848A;
+}
+.inputFields{
+    display:flex;
+    flex-direction:column;
+    width:60%;
+    margin:auto;
+}
+textarea{
+    resize:none;
+    height:10rem;
+    font-family:arial;
+    border:1px solid #2D848A;
+}
+
+.submitContainer{
+    display:flex;
+    justify-content:flex-end;
+    width:60%;
+    margin:auto;
+}
+.submitButton{
+    margin-top:3%;
+    font-size:1.15rem;
+    width:8rem;
+    height:2.15rem;
+    
+}
+
+.submitButton:hover{
+    background:#2D848A;
+    color:white;
+    transition:0.6s all;
+}
+
+@media screen and (max-width:950px){
+    .inputFields{
+        width:70%;
+    }
+    .submitContainer{
+        width:70%;
+    }
+}
+@media screen and (max-width:800px){
+    .inputFields{
+        width:80%;
+    }
+    .submitContainer{
+        margin-top:5%;
+        width:80%;
+    }
+}

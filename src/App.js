@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import WholePage from './components/wholePageComponent/wholePage';
+import Home from './components/homeComponent/home';
+import About from './components/aboutComponent/about';
+import {Link} from 'react-scroll';
 
 function App() {
   return (
+    <Router>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Route path = '/' exact component = {WholePage} />
+      <Route path = '/home' exact component = {Home} />
+      <Route path = '/about' component = {About}/>
     </div>
-  );
+    </Router>
+  )
 }
 
 export default App;

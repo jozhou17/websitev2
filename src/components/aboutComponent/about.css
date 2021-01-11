@@ -1,0 +1,135 @@
+.aboutContainer{
+    margin-top:10%;
+    font-family: Source Code Pro;
+}
+.aboutTitle{
+    font-size:2.5rem;
+    color:#3587A4;
+}
+.aboutTitleContainer{
+    display:flex;
+    justify-content:center;
+}
+.aboutDescription{
+    display:flex;
+    justify-content:flex-end;
+    flex-direction:row;
+    width:65%;
+    margin:auto;
+    margin-top:1.5%;
+}
+.paraContainer{
+    margin-top:-2%;
+}
+.abouttxt{
+    font-size:1rem;
+}
+.aboutTitle{
+    font-size:2.5rem;
+    text-align:center;
+}
+.proPicContainer{
+    padding-left:3.5%;
+}
+.proPic{
+    height:25rem;
+    width:19rem;
+    border:1px solid black;
+}
+.proPicContainer2{
+    display:none;
+}
+.buttonLinks{
+    display:flex;
+    justify-content:center;
+
+}
+.button{
+    margin:5.5% 10% 0 10%;
+    /* background: #DEF2F1; 
+    width:5rem;
+    height:4rem;
+    border-radius: 25%;
+    box-shadow: 0 5px 15px -5px #00000070; */
+}
+.btcolor{
+    color:gray;
+    font-size:2rem;
+    transition:0.5s all;
+}
+
+.btcolor:hover{
+    color:#2D848A;
+    transform:translateY(-5px);
+    transition:0.5s transform;
+}
+@media screen and (max-width:1100px){
+    .aboutDescription{
+        width:70%;
+    }
+}
+@media screen and (max-width:1037px){
+    .proPic{
+        height:23rem;
+        width:17rem;
+    }
+    .aboutDescription{
+        width:75%;
+    }
+}
+
+@media screen and (max-width:950px){
+    .proPic{
+        height:21rem;
+        width:15rem;
+    }
+    .aboutDescription{
+        width:80%;
+    }
+}
+
+@media screen and (max-width:868px){
+    .aboutContainer{
+        margin-top:25%;
+    }
+    .proPic{
+        height:20rem;
+        width:16rem;
+    }
+    .aboutDescription{
+        width:85%;
+    }
+
+}
+
+@media screen and (max-width:836px){
+    .aboutDescription{
+        width:90%;
+    }
+    
+}
+
+@media screen and (max-width:757px){
+    .aboutDescription{
+        width:67.5%;
+        
+    }
+    .proPicContainer{
+        display:none;
+    }
+    .proPicContainer2{
+        display:flex;
+        justify-content:center;
+        margin-top:10%;
+    }
+}
+
+@media screen and (max-width:550px){
+    .aboutDescription{
+        width:75%;
+        margin-top:-10%;
+    }
+    .aboutTitle{
+        font-size:2.25rem;
+    }
+}
