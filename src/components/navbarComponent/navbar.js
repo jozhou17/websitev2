@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import {useEffect} from 'react';
 import './navbar.css';
 import styled from 'styled-components';
 import {Link} from 'react-scroll';
@@ -93,4 +92,3 @@ function Navbar(){
 
 export default Navbar
 
-// {{transform:`translateY(${0}%) translateY(${.75}%)`}}

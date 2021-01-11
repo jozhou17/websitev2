@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {useState} from 'react';
 import './experience.css';
-import { Tabs, Tab, AppBar } from "@material-ui/core";
+import { Tabs, Tab,} from "@material-ui/core";
 import ProductMindset from './productMindset';
 import Marina from './marina';
 import { withStyles } from '@material-ui/core/styles';
