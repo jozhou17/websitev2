@@ -1,5 +1,6 @@
 .contactContainer{
-    font-family:Source Code Pro;    
+    font-family:Source Code Pro;   
+    margin-top:15%; 
     margin-bottom:10%;
 }
 .contactTitleContainer{
@@ -12,24 +13,24 @@
 }
 
 .name{
-    height:2.5rem;
+    height:3rem;
     border:1px solid #2D848A;
     border-bottom:.5px solid #2D848A;
 }
 .email{
-    height:2.5rem;
+    height:3rem;
     border:1px solid #2D848A;
     border-bottom:.5px solid #2D848A;
 }
 .inputFields{
     display:flex;
     flex-direction:column;
-    width:60%;
+    width:70%;
     margin:auto;
 }
 textarea{
     resize:none;
-    height:10rem;
+    height:12rem;
     font-family:arial;
     border:1px solid #2D848A;
 }
@@ -37,7 +38,7 @@ textarea{
 .submitContainer{
     display:flex;
     justify-content:flex-end;
-    width:60%;
+    width:70%;
     margin:auto;
 }
 .submitButton{
@@ -69,5 +70,14 @@ textarea{
     .submitContainer{
         margin-top:5%;
         width:80%;
+    }
+}
+
+@media screen and (max-width:475px){
+    .inputFields{
+        width:90%;
+    }
+    .submitContainer{
+        width:90%;
     }
 }

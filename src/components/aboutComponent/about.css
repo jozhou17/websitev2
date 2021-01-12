@@ -1,6 +1,7 @@
 .aboutContainer{
-    margin-top:10%;
+    margin-top:12.5%;
     font-family: Source Code Pro;
+    margin-bottom:5%;
 }
 .aboutTitle{
     font-size:2.5rem;
@@ -19,7 +20,7 @@
     margin-top:1.5%;
 }
 .paraContainer{
-    margin-top:-2%;
+    margin-top:-6%;
 }
 .abouttxt{
     font-size:1rem;
@@ -29,6 +30,7 @@
     text-align:center;
 }
 .proPicContainer{
+    margin-top:-4%;
     padding-left:3.5%;
 }
 .proPic{
@@ -45,7 +47,7 @@
 
 }
 .button{
-    margin:5.5% 10% 0 10%;
+    margin:3.5% 10% 0 10%;
 }
 .btcolor{
     color:gray;

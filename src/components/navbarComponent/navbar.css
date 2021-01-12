@@ -1,5 +1,5 @@
 .navContainer{
-    margin-bottom:8.5%;
+    margin-bottom:7.5%;
 }
 .aboutLink{
     text-decoration:none;
@@ -12,7 +12,7 @@
 .aboutLink:hover{
     color:#2D848A;
     border-bottom:1.5px solid #2D848A;
-    font-size:1.35rem;
+    font-size:1.45rem;
     transition:0.25s all;
 }
 

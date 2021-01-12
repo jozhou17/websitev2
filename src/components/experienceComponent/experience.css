@@ -1,7 +1,7 @@
 .expContainer{
-    margin-top:10%;
+    margin-top:13.5%;
     font-family: Source Code Pro;
-    margin-bottom:10%;
+    margin-bottom:15%;
 }
 .expTitle{
     font-size:2.5rem;
@@ -16,7 +16,9 @@
     justify-content:center;
     margin-bottom:-4.5%;
 }
-
+.responsiveExpContent{
+    display:none;
+}
 @media screen and (max-width:520px){
     .expTitle{
         font-size:2.1rem;
