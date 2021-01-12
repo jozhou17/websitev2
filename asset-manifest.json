@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/websitev2/static/css/main.ce211579.chunk.css",
-    "main.js": "/websitev2/static/js/main.d5fc0afc.chunk.js",
-    "main.js.map": "/websitev2/static/js/main.d5fc0afc.chunk.js.map",
+    "main.css": "/websitev2/static/css/main.d652c1b1.chunk.css",
+    "main.js": "/websitev2/static/js/main.0bf34c93.chunk.js",
+    "main.js.map": "/websitev2/static/js/main.0bf34c93.chunk.js.map",
     "runtime-main.js": "/websitev2/static/js/runtime-main.e68b0e5a.js",
     "runtime-main.js.map": "/websitev2/static/js/runtime-main.e68b0e5a.js.map",
-    "static/js/2.c3da5008.chunk.js": "/websitev2/static/js/2.c3da5008.chunk.js",
-    "static/js/2.c3da5008.chunk.js.map": "/websitev2/static/js/2.c3da5008.chunk.js.map",
+    "static/js/2.9f306e2b.chunk.js": "/websitev2/static/js/2.9f306e2b.chunk.js",
+    "static/js/2.9f306e2b.chunk.js.map": "/websitev2/static/js/2.9f306e2b.chunk.js.map",
     "index.html": "/websitev2/index.html",
-    "static/css/main.ce211579.chunk.css.map": "/websitev2/static/css/main.ce211579.chunk.css.map",
-    "static/js/2.c3da5008.chunk.js.LICENSE.txt": "/websitev2/static/js/2.c3da5008.chunk.js.LICENSE.txt",
+    "static/css/main.d652c1b1.chunk.css.map": "/websitev2/static/css/main.d652c1b1.chunk.css.map",
+    "static/js/2.9f306e2b.chunk.js.LICENSE.txt": "/websitev2/static/js/2.9f306e2b.chunk.js.LICENSE.txt",
     "static/media/marinaLogo.a23058f1.png": "/websitev2/static/media/marinaLogo.a23058f1.png",
     "static/media/proPic.b276a1be.jpeg": "/websitev2/static/media/proPic.b276a1be.jpeg",
     "static/media/productSinsLogo.2b843b93.png": "/websitev2/static/media/productSinsLogo.2b843b93.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e68b0e5a.js",
-    "static/js/2.c3da5008.chunk.js",
-    "static/css/main.ce211579.chunk.css",
-    "static/js/main.d5fc0afc.chunk.js"
+    "static/js/2.9f306e2b.chunk.js",
+    "static/css/main.d652c1b1.chunk.css",
+    "static/js/main.0bf34c93.chunk.js"
   ]
 }
