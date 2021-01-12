@@ -19,9 +19,20 @@
 
 @media screen and (max-width:520px){
     .expTitle{
-        font-size:2.15rem;
+        font-size:2.1rem;
     }
 
+}
+@media screen and (max-width:450px){
+    .tabContainer{
+        display:none;
+    }
+    .expContent{
+        display:none;
+    }
+    .responsiveExpContent{
+        display:block;
+    }
 }
 
 

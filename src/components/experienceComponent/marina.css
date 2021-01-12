@@ -57,11 +57,11 @@
 
 @media screen and (max-width:565px){
     .cardContainer{
-        width:85%;
+        width:88%;
     }
 }
 @media screen and (max-width:480px){
     .cardContainer{
-        width:92.5%;
+        width:95%;
     }
 }

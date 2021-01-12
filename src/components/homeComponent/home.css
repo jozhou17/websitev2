@@ -69,10 +69,10 @@
         font-size:4.15rem;
     }
     .description{
-        font-size:1.15rem;
+        font-size:1.2rem;
     }
 }
-@media screen and (max-width:585px){
+/* @media screen and (max-width:585px){
     .mediumName{
         font-size:2.85rem;
     }
@@ -82,8 +82,11 @@
     .description{
         font-size:1.05rem;
     }
-}
-@media screen and (max-width:498px){
+} */
+/* @media screen and (max-width:530px){
+
+} */
+/* @media screen and (max-width:498px){
     .mediumName{
         font-size:2.5rem;
     }
@@ -108,15 +111,17 @@
     .description{
         font-size:1rem;
     }
-}
+} */
 @media screen and (max-width:432px){
     .mediumName{
-        font-size:1.75rem;
+        font-size:2.75rem;
     }
     .bigName{
-        font-size:2.65rem;
+        font-size:3.75rem;
     }
     .description{
-        font-size:.85rem;
+        font-size:1.15rem;
+        margin-left:1.5%;
+        maright-right:1.5%;
     }
 }

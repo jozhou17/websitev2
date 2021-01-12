@@ -6,6 +6,8 @@ import ProductMindset from './productMindset';
 import Marina from './marina';
 import { withStyles } from '@material-ui/core/styles';
 
+
+
 const styles = {
     root: {
         fontFamily: 'Source Code Pro',
@@ -15,6 +17,7 @@ const styles = {
         fontWeight:'bold',
     },
   };
+
 
 function Experience(props){
 
@@ -35,8 +38,15 @@ function Experience(props){
                     <Tab className = {classes.root} label= "Marina Bay Market" />
                 </Tabs>
             </div>
-            {selectedTab === 0 && <ProductMindset/>}
-            {selectedTab === 1 && <Marina/>}
+            <div className = 'expContent'>
+                {selectedTab === 0 && <ProductMindset/>}
+                {selectedTab === 1 && <Marina/>}
+            </div>
+            <div className = 'responsiveExpContent'>
+                <ProductMindset/>
+                <Marina/>
+            </div>
+
         </div>
     )
 

@@ -45,8 +45,7 @@
 .dropdownAni-enter-done{
     transform:translateY(0px);
 }
-.dropdownAni-exit{
-}
+
 .dropdownAni-exit-active{
     transform:translateY(-100px);
     transition:transform .55s ease-in-out;
@@ -99,5 +98,29 @@
     }
     .navContainer{
         height:5rem;
+    }
+}
+
+@media screen and (max-width:480px){
+    .aboutLink{
+        font-size:1.05rem;
+    }
+    .dropdownAni-enter{
+        transform:translateY(-120px);
+    }
+    .dropdownAni-enter-active{
+        transform:translateY(30px);
+        transition:transform .55s ease-in-out;
+    }
+    .dropdownAni-enter-done{
+        transform:translateY(30px);
+    }
+
+    .dropdownAni-exit-active{
+        transform:translateY(-120px);
+        transition:transform .55s ease-in-out;
+    }
+    .dropdownAni-exit-done{
+        transform:translateY(-120px);
     }
 }

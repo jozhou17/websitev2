@@ -46,11 +46,6 @@
 }
 .button{
     margin:5.5% 10% 0 10%;
-    /* background: #DEF2F1; 
-    width:5rem;
-    height:4rem;
-    border-radius: 25%;
-    box-shadow: 0 5px 15px -5px #00000070; */
 }
 .btcolor{
     color:gray;
@@ -111,7 +106,8 @@
 
 @media screen and (max-width:757px){
     .aboutDescription{
-        width:67.5%;
+        width:70%;
+        margin-top:-2.5%;
         
     }
     .proPicContainer{
@@ -123,13 +119,36 @@
         margin-top:10%;
     }
 }
-
-@media screen and (max-width:550px){
+@media screen and (max-width:650px){
     .aboutDescription{
         width:75%;
-        margin-top:-10%;
+    }
+}
+@media screen and (max-width:550px){
+    .aboutDescription{
+        width:80%;
+        margin-top:-5%;
     }
     .aboutTitle{
         font-size:2.25rem;
+    }
+    .abouttxt{
+        font-size:.95rem;
+    }
+    .proPic{
+        height:18rem;
+        width:14rem;
+    }
+}
+
+@media screen and (max-width:520px){
+    .aboutTitle{
+        font-size:2.1rem;
+    }
+}
+
+@media screen and (max-width:470px){
+    .aboutDescription{
+        width:90%;
     }
 }

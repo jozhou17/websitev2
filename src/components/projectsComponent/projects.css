@@ -156,3 +156,36 @@
         margin-bottom:7.5%;
     }
 }
+
+@media screen and (max-width:520px){
+    .projTitle{
+        font-size:2.1rem;
+    }
+}
+
+@media screen and (max-width:480px){
+    #responsivep1{
+        width:70%;
+    }
+    #responsivep3{
+        width:70%;
+        
+    }
+    #responsivep2{
+        width:70%;
+        
+    }
+}
+@media screen and (max-width:400px){
+    #responsivep1{
+        width:85%;
+    }
+    #responsivep3{
+        width:85%;
+        
+    }
+    #responsivep2{
+        width:85%;
+        
+    }
+}

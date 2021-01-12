@@ -5,7 +5,7 @@ function Projects(){
     return(
         <section className = 'projContainer' id = 'projID'>
             <header className = 'projTitleContainer'>
-                <h1 className = 'projTitle'>Projects I've Done</h1>
+                <h1 className = 'projTitle'>Projects</h1>
             </header>
             <div className = 'projGroup'>
                 <div className = 'project' id = 'p1'>
