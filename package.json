@@ -2,10 +2,7 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "14.5.0",
-    "npm": "6.14.8"
-  },
+  "homepage": "https://jozhou17.github.io/jozhouWebsite",
   "dependencies": {
     "@material-ui/core": "^4.11.2",
     "@material-ui/styles": "^4.11.2",
@@ -13,10 +10,6 @@
     "@testing-library/react": "^11.1.1",
     "@testing-library/user-event": "^12.2.0",
     "emailjs-com": "^2.6.4",
-    "express": "^4.17.1",
-    "express-favicon": "^2.0.1",
-    "gh-pages": "^3.1.0",
-    "path": "^0.12.7",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-icons": "^4.1.0",
@@ -32,7 +25,9 @@
     "webfontloader": "^1.6.28"
   },
   "scripts": {
-    "start": "node-server.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -54,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
